@@ -103,9 +103,11 @@ Module: pystyle (auto install if missing)
 - Enter Your Username! [For example: 'AnhNguyenCoder']:
 
 # Choose options:
-Do you want high security? Yes (Y) | (N) No:
-Anti-Crack? (Y) Yes | (N) No:
-Anti-Debug? (Y) Yes | (N) No:
+-> Do you want high security? Yes (Y) | (N) No:
+
+-> Anti-Crack? (Y) Yes | (N) No:
+
+-> Anti-Debug? (Y) Yes | (N) No:
 
 # After encoding:
 -> Saved file name: obf-your_script.py
