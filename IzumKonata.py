@@ -5,14 +5,12 @@ except Exception as e:
     print(e)
 
 Izumkonata = ['__import__', 'abs', 'all', 'any', 'ascii', 'bin', 'breakpoint', 'callable', 'chr', 'compile', 'delattr', 'dir', 'divmod', 'eval', 'exec', 'format', 'getattr', 'globals', 'hasattr', 'hash', 'hex', 'id', 'input', 'isinstance', 'issubclass', 'iter', 'aiter', 'len', 'locals', 'max', 'min', 'next', 'anext', 'oct', 'ord', 'pow', 'print', 'repr', 'round', 'setattr', 'sorted', 'sum', 'vars', 'None', 'Ellipsis', 'NotImplemented', 'False', 'True', 'bool', 'memoryview', 'bytearray', 'bytes', 'classmethod', 'complex', 'dict', 'enumerate', 'filter', 'float', 'frozenset', 'property', 'int', 'list', 'map', 'range', 'reversed', 'set', 'slice', 'staticmethod', 'str', 'super', 'tuple', 'type', 'zip']
-anti = """
-print(' ' * len('>> Loading...'), end='\\r')
 
+anti = """
 _check_ = __Konata__.__init__.__code__.co_consts
 if '>> Loading...' not in _check_:
     print(">> AnhNguyenCoder...")
     AnhNguyenCoder('sys').exit()
-
 try:
     if str(AnhNguyenCoder('sys').exit) != '<built-in function exit>':
         raise Exception
@@ -215,6 +213,7 @@ if __Konata__.__str__.__code__.co_firstlineno < 1:
     print(">> AnhNguyenCoder...")
     AnhNguyenCoder('sys').exit()
 
+print((__import__('time').sleep(1), ' ' * len('>> Loading...'))[1], end='\\r')
 
 try:
     import requests, inspect, sys
@@ -397,6 +396,8 @@ except:
         pass
     print(">> AnhNguyenCoder...")
     __import__("sys").exit()
+
+
 
 """
 BANNER = """                                                      ⠀⠀⠀⠀⠀ ⢀⡀⠀⠔⢀⡀⠀⢀⠞⢠⠂
